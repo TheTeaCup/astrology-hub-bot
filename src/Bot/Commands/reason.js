@@ -25,7 +25,7 @@ exports.run = async (Mythical, message, args) => {
     return message.channel.send(deniedEmbed);
   }
 
-  const modlog = Mythical.channels.cache.get("710506319626502215");
+  const modlog = Mythical.channels.cache.get("710506319626502215"); //your mod log
   const caseNumber = args.shift();
   const newReason = args.join(" ");
 
